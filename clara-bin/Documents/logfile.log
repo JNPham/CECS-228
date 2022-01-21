@@ -1,0 +1,19 @@
+/*
+logfile.log
+Time of creation: Thu Oct  1 03:42:29 2020
+*/
+
+//success
+
++1+1
+
+//Error line 1: a unary function named + does not exist.
+
+
+9*6
+
+//54
+
+1+1
+
+//2

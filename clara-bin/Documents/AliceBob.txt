@@ -1,0 +1,14 @@
+model AliceBob, Boolean:(at, af, bt, bf)
+
+constraint AliceBob
+	//C1: Alice tells the truth of Bob and her are both knights
+	at <-> at & bt
+	
+	//C2: Bob tells the truth of Alice is a knave
+	bt <-> af 
+
+	//C3: Either Alice lies or tells the truth
+	af ^ at
+
+	//C4: Either Bob lies or tells the truth
+	bf ^ bt

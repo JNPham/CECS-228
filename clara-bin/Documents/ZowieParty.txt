@@ -1,0 +1,8 @@
+model ZowieParty, Boolean:(a, b, c, d, e)
+
+constraint ZowieParty
+	a -> (b | e)
+	b ^ d
+	c -> (a & b)
+	!d -> (!a | !b)
+	a | c
